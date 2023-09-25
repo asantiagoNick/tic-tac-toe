@@ -16,19 +16,34 @@
 .container{
     display: flex;
     background: var(--cor-fundo);
+    align-items: center;
+    flex-direction: column;
 }
 
-.matriz{
+.tabuleiro{
     display:grid;
     grid-template-columns: 100px 100px 100px;
-    max-width: 500px;
-    grid-template-rows: 100px 100px 100px;
-    
+   grid-template-rows: 100px 100px 100px;
+     max-width: 500px;
 }
+    
 
 .grid{
-    border: 2px solid red;
+    border: 2px solid rgb(26, 36, 25);
     min-height: 100px;
     min-width:100px;
+    background-color:var(--bg-color-main);
+    min-width: 100px;
+    min-height: 100px;
+    cursor: pointer; 
+}
 
+#novo{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(26, 36, 25) ;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    
 }

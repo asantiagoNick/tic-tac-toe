@@ -12,9 +12,9 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a>"</li>
-                <li><a href="#">Historico</a>"</li>
-                <li><a href="#">Sobre</a>"</li>
-                <li><a href="#">Ajuda</a>"</li>
+                <li><a href="pages/historico.html">Historico</a>"</li>
+                <li><a href="pages/sobre.html">Sobre</a>"</li>
+                <li><a href="pages/ajuda.html">Ajuda</a>"</li>
         </nav>
     </header>
 
@@ -23,21 +23,25 @@
             <h1>Jogo da Velha</h1>
         </section>
 
-        <section class="matriz">
-            <section class="grid" id="cel1"></section>
-            <section class="grid" id="cel2"></section>
-            <section class="grid" id="cel3"></section>
-            <section class="grid" id="cel4"></section>
-            <section class="grid" id="cel5"></section>
-            <section class="grid" id="cel6"></section>
-            <section class="grid" id="cel7"></section>
-            <section class="grid" id="cel8"></section>
-            <section class="grid" id="cel9"></section>
+        <section class="tabuleiro">
+            <section class="grid" id="cel1" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel2" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel3" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel4" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel5" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel6" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel7" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel8" onclick="joga(this.id);"></section>
+            <section class="grid" id="cel9" onclick="joga(this.id);"></section>
         </section>
 
         <section class="renova">
             <button id="reinicia">Reiniciar</button>
         </section>
     </main>
+    <footer class="footer">
+        
+    </footer>
+    <script src="js/main.js" defer></script>
 </body>
 </html>
